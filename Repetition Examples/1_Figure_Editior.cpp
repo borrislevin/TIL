@@ -12,7 +12,8 @@ public:
 class Rect : public Shape{
 public:
 	void draw() override { cout << "Rect draw" << endl; }
-	Shape* Clone() override { return new Rect(*this); }
+	Shape* Clone() override { return new Rect(*this); }			// this는 자기를 가리키는 포인터이다, *this는 값이다
+																// 따라서 Rect(*this)는 복사 생성자 생성
 };
 
 class Circle : public Shape{
@@ -51,6 +52,7 @@ int main() {
 			int k;
 			cin >> k;
 			v.push_back(v[k-1]->Clone());
+			v[k]->draw();
 			break;
 		case 9:
 			if (v.empty() == 1) {

@@ -21,10 +21,20 @@
     <ClCompile Include="..\Repetition Examples\1_Figure_Editior.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="20.10.18_1_Copy Constructor.cpp">
+    <ClCompile Include="20.10.18_Copy_Constructor.cpp">
       <Filter>소스 파일</Filter>
-    </None>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Repetition Examples\2_Composite_Menu.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20.10.18_Functional_Pointer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20.10.18_포인터 배열, 배열 포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
