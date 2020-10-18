@@ -18,9 +18,6 @@
     <ClCompile Include="Remember.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\Repetition Examples\1_Figure_Editior.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="20.10.18_Copy_Constructor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -34,6 +31,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="20.10.18_포인터 배열, 배열 포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Maze_Fail.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Repetition Examples\1_Figure_Editor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Figure_Editor_w.Command.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

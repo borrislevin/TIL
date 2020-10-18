@@ -1,0 +1,31 @@
+1.  2개의 변수값을 변경하는 swap()을 만들어 보세요
+
+    조건 1. 포인터 말고, 참조를 사용해 보세요
+    조건 2. 템플릿을 사용해서 보세요
+    조건 3. utility  라는 namespace 안에 넣어보세요
+    
+    main 함수에서 swap 을 사용해 보세요
+
+2.  <algorithm> 에서에 C++ 표준의 swap 이 있습니다.
+      우리가 만든 "utility::swap" 대신 "std::swap" 로 변경해 보세요
+
+
+3. {1,2,3,1,2,3,1,2,3,1} 로 초기화된 std::list를 만드세요
+    find()알고리즘을 사용해서 "3을 검색"해서 출력해 보세요.
+
+    A.  처음 나타나는 3만 출력해 보세요
+    B.  처음 나타나는 3뿐 아니라 모든 3을 찾아서 출력해보세요
+
+4. 수업시간에 만든 slist 안에. 
+
+    T front() /  void pop_front() 멤버 함수를 만들어 보세요
+
+    slist<int> s;
+    s.push_front(10);
+    s.push_front(20);
+    
+    int n1 = s.front();  // 20 이 반환되어야 합니다.
+
+    s.pop_front();
+
+    int n2 = s.front(); // 10이 반환되어야 합니다.
