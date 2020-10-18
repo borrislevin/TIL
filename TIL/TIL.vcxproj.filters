@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="20.10.03.c">
+    <ClCompile Include="..\Repetition Examples\1_Figure_Editior.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Remember.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
