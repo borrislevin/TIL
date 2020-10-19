@@ -42,5 +42,11 @@
     <ClCompile Include="1_Figure_Editor_w.Command.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20.10.19_임시객체.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
